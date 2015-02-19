@@ -1,1 +1,40 @@
 /* Custom style */
+body{
+  font-family: "Roboto", sans-serif;
+}
+h1{
+  font-size:1.7em;
+}
+.fullWidth{
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.slider{
+  display:block;
+  height:300px;
+}
+.trending{
+  position:relative;
+  top:60px;
+}
+.trending-list{
+  list-style-type:none;
+  margin:0;
+}
+.trending-list li{
+  height:50px;
+  width:100%;
+  margin-bottom:7px;
+  background:#efefef;
+}
+.logo{
+  position:relative;
+  bottom:15px;
+  left:-120px;
+}
+.tab-bar,
+.tab-bar-section,
+.right-small{
+  height:3.9rem;
+}
